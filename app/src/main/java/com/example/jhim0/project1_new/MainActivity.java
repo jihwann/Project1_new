@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import static com.example.jhim0.project1_new.R.layout.linear_1;
+import static com.example.jhim0.project1_new.R.layout.activity_main;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(linear_1);
+        setContentView(R.layout.activity_main);
 
         String Food1 = getResources().getString(R.string.coldNoodles);
         String Food2 = getResources().getString(R.string.naengmyeon);

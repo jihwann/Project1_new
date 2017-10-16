@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         Views.setDividerHeight(3);
 
         //Clicked ListView
-/*
+
         Views.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long ld) {
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intents);
             }
         });
-*/
+
 
 
 
